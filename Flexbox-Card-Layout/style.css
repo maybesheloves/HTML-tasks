@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+div.header {
+    background-color: rgb(33, 43, 88);
+    height: 60px;
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.box {
+    display: flexbox;
+}
