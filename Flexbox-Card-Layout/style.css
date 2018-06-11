@@ -12,4 +12,7 @@ div.header {
 
 .box {
     display: flexbox;
+    flex-direction: row;
 }
+
+
