@@ -1,0 +1,42 @@
+body {
+  border: 1px solid;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  align-items: flex-start;
+}
+
+.header, .footer {
+  border: 1px solid;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 16px;
+}
+
+.header {
+  margin-top: 4px;
+}
+
+.footer {
+  margin-bottom: 4px;
+}
+
+.content-area {
+  border: 1px solid;
+  margin: 4px;
+  padding: 16px;
+  flex: 1;
+}
+
+.one {
+  background: #e9e8e8;
+  margin-right: 0px;
+}
+
+.three {
+  background: #e2e2e2;
+  margin-left: 0px;
+}
